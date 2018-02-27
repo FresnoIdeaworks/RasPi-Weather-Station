@@ -1,6 +1,6 @@
 <?php
 $today = date("Ymd");
-$csv_dir = '/home/jdo/';
+$csv_dir = '/home/pi/';
 $csv_file = $today.'.csv';
 $grapgh = '';
  
