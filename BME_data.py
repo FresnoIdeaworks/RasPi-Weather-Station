@@ -8,7 +8,7 @@ import smbus2
 port = 1
 address = 0x76
 bus = smbus2.SMBus(port)
-user = os.getenv("USER")
+user = str(os.getenv("USER"))
 bme280.load_calibration_params(bus, address)
 
 # the sample method will take a single reading and return a
